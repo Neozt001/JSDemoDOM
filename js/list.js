@@ -52,3 +52,23 @@ console.log(lastC)
 
 // console.log(newelement);
 console.log("slut på JavaScript")
+
+function addElement(textnode, atr) {
+    let newelement = document.createElement("li");
+    newelement.setAttribute("class", atr);
+    newtextnode = document .createTextNode(textnode);
+    newelement.appendChild(newtextnode);
+
+    return newelement;
+}
+
+let list1 = document.getElementById("firstul");
+list1.appendChild(addElement("Lemon", "hot"));
+document.
+// Funktion eksempel
+function beregnSum(a,b) {
+    return a + b;
+}
+console.log(beregnSum(5, 10));
+console.log(beregnSum(5, "10"));
+console.log(beregnSum("A", 10));
